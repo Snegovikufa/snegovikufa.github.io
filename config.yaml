@@ -1,0 +1,55 @@
+baseURL: http://snegovikufa.github.io/
+languageCode: ru-RU
+title: Перепиши код
+theme: terminal
+paginate: 10
+defaultContentLanguage: ru
+disqusShortname: snegovikufa-github-io
+
+params:
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName: "posts"
+
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor: "blue"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems: 2
+
+  # show selector to switch language
+  showLanguageSelector: true
+
+  # set theme to full screen width
+  fullWidthTheme: false
+
+  # center theme with default width
+  centerTheme: true
+
+languages:
+  # en:
+  #   languageName: English
+  #   title: Rustam Safin
+  #   subtitle: 'Slow code optimized'
+  #   keywords: ''
+  #   menuMore: Show more
+  #   readMore: Read more
+  #   readOtherPosts: Read other posts
+
+  #   params:
+  #     logo:
+  #       logoText: cd ~
+  #       logoHomeLink: /
+
+  ru:
+    languageName: Russian
+    title: Рустам Сафин
+    subtitle: 'О технологиях, программировании и за жизнь'
+    keywords: ''
+    menuMore: 'Показать больше'
+    readMore: 'Читать'
+    readOtherPosts: 'Дальше ->'
+
+    params:
+      logo:
+        logoText: cd ~
+        logoHomeLink: /
