@@ -3,8 +3,7 @@ title = "32 января"
 date = "2020-01-15 19:41:00"
 author = "Rustam Safin"
 cover = "img/32jan_logo.png"
-tags = ["", ""]
-keywords = ["", ""]
+tags = ["фантастика", "истории"]
 description = "Фантастическая история, как программистам приходится бороться с несуществующими датами."
 showFullContent = false
 +++
