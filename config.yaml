@@ -47,7 +47,7 @@ languages:
     keywords: ''
     menuMore: 'Показать больше'
     readMore: 'Читать'
-    readOtherPosts: 'Дальше ->'
+    readOtherPosts: 'Можно ещё прочитать:'
 
     params:
       logo:
