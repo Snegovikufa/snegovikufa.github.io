@@ -17,7 +17,7 @@ params:
   showMenuItems: 2
 
   # show selector to switch language
-  showLanguageSelector: true
+  showLanguageSelector: false
 
   # set theme to full screen width
   fullWidthTheme: false
@@ -26,19 +26,19 @@ params:
   centerTheme: true
 
 languages:
-  # en:
-  #   languageName: English
-  #   title: Rustam Safin
-  #   subtitle: 'Slow code optimized'
-  #   keywords: ''
-  #   menuMore: Show more
-  #   readMore: Read more
-  #   readOtherPosts: Read other posts
+  en:
+    languageName: English
+    title: Rustam Safin
+    subtitle: 'Slow code optimized'
+    keywords: ''
+    menuMore: Show more
+    readMore: Read more
+    readOtherPosts: Read other posts
 
-  #   params:
-  #     logo:
-  #       logoText: cd ~
-  #       logoHomeLink: /
+    params:
+      logo:
+        logoText: cd ~
+        logoHomeLink: /
 
   ru:
     languageName: Russian
@@ -53,3 +53,12 @@ languages:
       logo:
         logoText: cd ~
         logoHomeLink: /
+
+    menu:
+      main:
+      - identifier: about
+        name: Обо мне
+        url: /about
+      # - identifier: projects
+        # name: Проекты
+        # url: /projects
