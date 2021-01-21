@@ -22,7 +22,7 @@ jobs:
       uses: reuixiy/hugo-deploy@v1
       env:
         DEPLOY_REPO: Snegovikufa/snegovikufa.github.io
-        DEPLOY_BRANCH: gh-pages
+        DEPLOY_BRANCH: master
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         GITHUB_ACTOR: username
         # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
